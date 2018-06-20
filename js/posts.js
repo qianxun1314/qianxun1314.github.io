@@ -1,1 +1,1 @@
-[{"title":"js期末课程总结","date":"2018.06.19","uri":"2018/06/19/js期末课程总结/","excerpt":""},{"title":"Python list","date":"2018.06.20","uri":"2018/06/20/Python-list/","excerpt":""}]
+[{"title":"Python list","date":"2018.06.20","uri":"2018/06/20/Python-list/","excerpt":""},{"title":"js期末课程总结","date":"2018.06.19","uri":"2018/06/19/js期末课程总结/","excerpt":""}]
