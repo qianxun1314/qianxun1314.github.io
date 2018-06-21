@@ -17,6 +17,8 @@
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-9f33541efa40945b.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/223">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-005f42bdcab7febd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/402">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-39f251613f605981.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/533">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-0d1d725ebce618e6.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/443">
+<meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-18e140a7932822b4.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/432">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-a7c2c463d634d73e.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/469">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-555af4ff8a06ea85.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/669">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-3f0f290f0526fa1e.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/507">
@@ -25,7 +27,7 @@
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-cb803c3e8bf290b7.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/633">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-c7f2cbc1bad44220.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/521">
 <meta property="og:image" content="https://upload-images.jianshu.io/upload_images/9107736-ec436143932df2cb.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/484">
-<meta property="og:updated_time" content="2018-06-20T15:13:22.166Z">
+<meta property="og:updated_time" content="2018-06-21T00:08:47.338Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Python list">
 <meta name="twitter:description" content="初识列表如果你要列出家庭成员列表，你可能会这样写：  我们用Python来实现 1family_numbers = [&quot;Mom&quot;, &quot;Dad&quot;, &quot;Allen&quot;] 如果让你列出你的幸运数字，你可能会这样写：  我们用Python来实现 1lucky_numbers = [2, 7, 14, 26, 30]">
@@ -122,6 +124,10 @@
 <p><img src="https://upload-images.jianshu.io/upload_images/9107736-005f42bdcab7febd.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/402" alt=""></p>
 <p>注：向列表中添加元素之前首先要创建一个列表，既可以是空列表也可以是非空列表。<br>我们可以把列表看成是一个容器。</p>
 <p><img src="https://upload-images.jianshu.io/upload_images/9107736-39f251613f605981.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/533" alt=""></p>
+<p>列表长度</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/9107736-0d1d725ebce618e6.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/443" alt=""></p>
+<p>列表求和</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/9107736-18e140a7932822b4.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/432" alt=""></p>
 <p>习题：输入班级学生的Python期末考试分数，遇到quit停止输入，并将分数保存到列表中，最后计算出班级平均分。</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">score = input(<span class="string">"Please input score: "</span>)</span><br><span class="line">score_list = []</span><br><span class="line">num = <span class="number">0</span></span><br><span class="line"><span class="keyword">while</span> score != <span class="string">"quit"</span>:</span><br><span class="line">    num += <span class="number">1</span></span><br><span class="line">    score_list.append(int(score))</span><br><span class="line">    score = input(<span class="string">"Please input score: "</span>)</span><br><span class="line"></span><br><span class="line">print(<span class="string">"score_list = "</span>, score_list)</span><br><span class="line">print(<span class="string">"average score = "</span>, sum(score_list) / len(score_list))</span><br></pre></td></tr></table></figure>
 <h2 id="列表的索引"><a href="#列表的索引" class="headerlink" title="列表的索引"></a>列表的索引</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">print(li[<span class="number">0</span>])</span><br><span class="line">print(li[<span class="number">1</span>])</span><br></pre></td></tr></table></figure>
