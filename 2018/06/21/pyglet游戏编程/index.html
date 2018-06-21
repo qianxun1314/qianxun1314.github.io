@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>pyglet游戏编程 | 千寻网络科技</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="What is pyglet?pyglet是一个用于Python的跨平台的窗口和多媒体库，用于开发游戏和其他视觉丰富的应用程序。它支持窗口，用户界面事件处理，OpenGL图形，加载图像和视频，以及播放声音和音乐。pyglet适用于Windows，OS X和Linux。 pyglet的一些功能是：  没有外部依赖或安装要求。对于大多数应用程序和游戏需求，pyglet除了Python之外不需要任何东西">
+<meta name="keywords" content="python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="pyglet游戏编程">
+<meta property="og:url" content="http://qxgit.yanpeng1314.com/2018/06/21/pyglet游戏编程/index.html">
+<meta property="og:site_name" content="千寻网络科技">
+<meta property="og:description" content="What is pyglet?pyglet是一个用于Python的跨平台的窗口和多媒体库，用于开发游戏和其他视觉丰富的应用程序。它支持窗口，用户界面事件处理，OpenGL图形，加载图像和视频，以及播放声音和音乐。pyglet适用于Windows，OS X和Linux。 pyglet的一些功能是：  没有外部依赖或安装要求。对于大多数应用程序和游戏需求，pyglet除了Python之外不需要任何东西">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-06-21T08:13:56.581Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="pyglet游戏编程">
+<meta name="twitter:description" content="What is pyglet?pyglet是一个用于Python的跨平台的窗口和多媒体库，用于开发游戏和其他视觉丰富的应用程序。它支持窗口，用户界面事件处理，OpenGL图形，加载图像和视频，以及播放声音和音乐。pyglet适用于Windows，OS X和Linux。 pyglet的一些功能是：  没有外部依赖或安装要求。对于大多数应用程序和游戏需求，pyglet除了Python之外不需要任何东西">
+  
+    <link rel="alternate" href="/atom.xml" title="千寻网络科技" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    
+    <div id="header-inner" class="inner">
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://qxgit.yanpeng1314.com"></form>
+      </div>
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">首页</a>
+        
+          <a class="main-nav-link" href="/archives">归档</a>
+        
+          <a class="main-nav-link" href="/about">关于</a>
+        
+      </nav>
+      
+    </div>
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">千寻网络科技</a>
+      </h1>
+      
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-pyglet游戏编程" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/06/21/pyglet游戏编程/" class="article-date">
+  <time datetime="2018-06-21T05:58:07.000Z" itemprop="datePublished">2018-06-21</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      pyglet游戏编程
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!-- Table of Contents -->
+        
+        <h1 id="What-is-pyglet"><a href="#What-is-pyglet" class="headerlink" title="What is pyglet?"></a>What is pyglet?</h1><p>pyglet是一个用于Python的跨平台的窗口和多媒体库，用于开发游戏和其他视觉丰富的应用程序。它支持窗口，用户界面事件处理，OpenGL图形，加载图像和视频，以及播放声音和音乐。pyglet适用于Windows，OS X和Linux。</p>
+<p>pyglet的一些功能是：</p>
+<ul>
+<li>没有外部依赖或安装要求。对于大多数应用程序和游戏需求，pyglet除了Python之外不需要任何东西，从而简化了分发和安装。</li>
+<li>利用多个窗口和多监视器桌面。 pyglet允许您根据需要使用尽可能多的窗口，并且完全了解用于全屏游戏和应用程序的多显示器设置。</li>
+<li>以几乎任何格式加载图像，声音，音乐和视频。可选择使用AVbin来播放MP3，OGG / Vorbis和WMA等音频格式以及DivX，MPEG-2，H.264，WMV和Xvid等视频格式。</li>
+<li>pyglet是在BSD开放源代码许可证下提供的，允许您将它用于商业和其他开放源代码项目，而且几乎没有限制。</li>
+</ul>
+<h1 id="How-to-install-pyglet"><a href="#How-to-install-pyglet" class="headerlink" title="How to install pyglet?"></a>How to install pyglet?</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo pip3 install pyglet</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<h1 id="实例入门"><a href="#实例入门" class="headerlink" title="实例入门"></a>实例入门</h1><h2 id="一个简单的”Hello-world”"><a href="#一个简单的”Hello-world”" class="headerlink" title="一个简单的”Hello world”"></a>一个简单的”Hello world”</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pyglet</span><br><span class="line"></span><br><span class="line">window = pyglet.window.Window(<span class="number">800</span>, <span class="number">600</span>)</span><br><span class="line"></span><br><span class="line">label = pyglet.text.Label(</span><br><span class="line">                            <span class="string">'Hello, world'</span>,</span><br><span class="line">                            font_name=<span class="string">'Times New Roman'</span>,</span><br><span class="line">                            font_size=<span class="number">36</span>,</span><br><span class="line">                            x=window.width//<span class="number">2</span>, y=window.height//<span class="number">2</span>,</span><br><span class="line">                            anchor_x=<span class="string">'center'</span>, anchor_y=<span class="string">'center'</span></span><br><span class="line">                         )</span><br><span class="line"></span><br><span class="line"><span class="meta">@window.event</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">on_draw</span><span class="params">()</span>:</span></span><br><span class="line">    window.clear()</span><br><span class="line">    label.draw()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    pyglet.app.run()</span><br></pre></td></tr></table></figure>
+<h2 id="显示图片"><a href="#显示图片" class="headerlink" title="显示图片"></a>显示图片</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pyglet</span><br><span class="line"></span><br><span class="line">window = pyglet.window.Window(<span class="number">480</span>, <span class="number">852</span>)</span><br><span class="line">image = pyglet.resource.image(<span class="string">'resource/imgs/bg.png'</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">@window.event</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">on_draw</span><span class="params">()</span>:</span></span><br><span class="line">    window.clear()</span><br><span class="line">    image.blit(<span class="number">0</span>, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    pyglet.app.run()</span><br></pre></td></tr></table></figure>
+<h2 id="键盘检测"><a href="#键盘检测" class="headerlink" title="键盘检测"></a>键盘检测</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pyglet</span><br><span class="line"><span class="keyword">from</span> pyglet.window <span class="keyword">import</span> key</span><br><span class="line"></span><br><span class="line">window = pyglet.window.Window(<span class="number">800</span>, <span class="number">600</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">@window.event</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">on_key_press</span><span class="params">(symbol, modifiers)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> symbol == key.A:</span><br><span class="line">        print(<span class="string">'The "A" key was pressed.'</span>)</span><br><span class="line">    <span class="keyword">elif</span> symbol == key.LEFT:</span><br><span class="line">        print(<span class="string">'The left arrow key was pressed.'</span>)</span><br><span class="line">    <span class="keyword">elif</span> symbol == key.ENTER:</span><br><span class="line">        print(<span class="string">'The enter key was pressed.'</span>)</span><br><span class="line">    print(symbol, modifiers)</span><br><span class="line"></span><br><span class="line"><span class="meta">@window.event</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">on_draw</span><span class="params">()</span>:</span></span><br><span class="line">    window.clear()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">    pyglet.app.run()</span><br></pre></td></tr></table></figure>
+<p>键盘事件有两个参数：被按下的虚拟键符号以及存在的任何修饰符（例如CTRL和SHIFT键）的按位组合。</p>
+<h2 id="鼠标事件检测"><a href="#鼠标事件检测" class="headerlink" title="鼠标事件检测"></a>鼠标事件检测</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> pyglet</span><br><span class="line"><span class="keyword">from</span> pyglet.window <span class="keyword">import</span> mouse</span><br><span class="line"></span><br><span class="line">window = pyglet.window.Window(<span class="number">800</span>, <span class="number">600</span>)</span><br><span class="line"></span><br><span class="line"><span class="meta">@window.event</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">on_mouse_press</span><span class="params">(x, y, button, modifiers)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> button == mouse.LEFT:</span><br><span class="line">        print(<span class="string">'The left mouse button was pressed.'</span>)</span><br><span class="line">        print(x, y, button, modifiers)</span><br><span class="line"></span><br><span class="line"><span class="meta">@window.event</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">on_draw</span><span class="params">()</span>:</span></span><br><span class="line">    window.clear()</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">"__main__"</span>:</span><br><span class="line">	<span class="comment">#window.push_handlers(pyglet.window.event.WindowEventLogger())</span></span><br><span class="line">    pyglet.app.run()</span><br></pre></td></tr></table></figure>
+<h1 id="创建一个OpenGL-context"><a href="#创建一个OpenGL-context" class="headerlink" title="创建一个OpenGL context"></a>创建一个OpenGL context</h1><p>在pyglet中绘制窗口时，您正在绘制到OpenGL context。每个窗口都有其自己的context，该窗口在创建窗口时创建。您可以通过其context属性访问窗口的context。</p>
+<p>context是通过OpenGL config创建的，该配置描述了上下文的各种属性，例如使用什么颜色格式，有多少缓冲区可用等等。您可以通过config的config属性访问用于创建con    con的配置。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line">In [<span class="number">1</span>]: <span class="keyword">import</span> pyglet</span><br><span class="line"></span><br><span class="line">In [<span class="number">2</span>]: window = pyglet.window.Window()</span><br><span class="line"><span class="number">2018</span><span class="number">-06</span><span class="number">-21</span> <span class="number">16</span>:<span class="number">11</span>:<span class="number">23.178</span> Python[<span class="number">8783</span>:<span class="number">539650</span>] ApplePersistenceIgnoreState: Existing state will <span class="keyword">not</span> be touched. New state will be written to (null)</span><br><span class="line"></span><br><span class="line">In [<span class="number">3</span>]: context = window.context</span><br><span class="line"></span><br><span class="line">In [<span class="number">4</span>]: context</span><br><span class="line">Out[<span class="number">4</span>]: CocoaContext()</span><br><span class="line"></span><br><span class="line">In [<span class="number">5</span>]: config = context.config</span><br><span class="line"></span><br><span class="line">In [<span class="number">6</span>]: config</span><br><span class="line">Out[<span class="number">6</span>]: </span><br><span class="line">CocoaCanvasConfig([(<span class="string">'double_buffer'</span>, <span class="number">1</span>),</span><br><span class="line"> (<span class="string">'stereo'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'buffer_size'</span>, <span class="number">32</span>),</span><br><span class="line"> (<span class="string">'aux_buffers'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'sample_buffers'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'samples'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'red_size'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'green_size'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'blue_size'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'alpha_size'</span>, <span class="number">8</span>),</span><br><span class="line"> (<span class="string">'depth_size'</span>, <span class="number">24</span>),</span><br><span class="line"> (<span class="string">'stencil_size'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'accum_red_size'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'accum_green_size'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'accum_blue_size'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'accum_alpha_size'</span>, <span class="number">0</span>),</span><br><span class="line"> (<span class="string">'major_version'</span>, <span class="number">2</span>),</span><br><span class="line"> (<span class="string">'minor_version'</span>, <span class="number">1</span>),</span><br><span class="line"> (<span class="string">'forward_compatible'</span>, <span class="keyword">None</span>),</span><br><span class="line"> (<span class="string">'debug'</span>, <span class="keyword">None</span>)])</span><br><span class="line"></span><br><span class="line">In [<span class="number">7</span>]: config.double_buffer</span><br><span class="line">Out[<span class="number">7</span>]: <span class="number">1</span></span><br><span class="line"></span><br><span class="line">In [<span class="number">8</span>]: config.stereo</span><br><span class="line">Out[<span class="number">8</span>]: <span class="number">0</span></span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://qxgit.yanpeng1314.com/2018/06/21/pyglet游戏编程/" data-id="cjio56yv20004n34t1pu0rwfi" class="article-share-link">分享</a>
+      
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python/">python</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+ <script src="/jquery/jquery.min.js"></script>
+  <div id="random_posts">
+    <h2>推荐文章</h2>
+    <div class="random_posts_ul">
+      <script>
+          var random_count =4
+          var site = {BASE_URI:'/'};
+          function load_random_posts(obj) {
+              var arr=site.posts;
+              if (!obj) return;
+              // var count = $(obj).attr('data-count') || 6;
+              for (var i, tmp, n = arr.length; n; i = Math.floor(Math.random() * n), tmp = arr[--n], arr[n] = arr[i], arr[i] = tmp);
+              arr = arr.slice(0, random_count);
+              var html = '<ul>';
+            
+              for(var j=0;j<arr.length;j++){
+                var item=arr[j];
+                html += '<li><strong>' + 
+                item.date + ':&nbsp;&nbsp;<a href="' + (site.BASE_URI+item.uri) + '">' + 
+                (item.title || item.uri) + '</a></strong>';
+                if(item.excerpt){
+                  html +='<div class="post-excerpt">'+item.excerpt+'</div>';
+                }
+                html +='</li>';
+                
+              }
+              $(obj).html(html + '</ul>');
+          }
+          $('.random_posts_ul').each(function () {
+              var c = this;
+              if (!site.posts || !site.posts.length){
+                  $.getJSON(site.BASE_URI + 'js/posts.js',function(json){site.posts = json;load_random_posts(c)});
+              } 
+               else{
+                load_random_posts(c);
+              }
+          });
+      </script>
+    </div>
+  </div>
+
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2018/06/21/wxpy玩转weChat/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">下一篇</strong>
+      <div class="article-nav-title">wxpy玩转weChat</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+ 
+     
+  <div class="comments" id="comments">
+    
+     
+       
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+       
+      
+      
+  </div>
+ 
+  
+
+</section>
+           
+    <aside id="sidebar">
+  
+    
+
+  
+    
+    <div class="widget-wrap">
+    
+      <div class="widget" id="toc-widget-fixed">
+      
+        <strong class="toc-title">文章目录</strong>
+        <div class="toc-widget-list">
+              <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#What-is-pyglet"><span class="toc-number">1.</span> <span class="toc-text">What is pyglet?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#How-to-install-pyglet"><span class="toc-number">2.</span> <span class="toc-text">How to install pyglet?</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#实例入门"><span class="toc-number">3.</span> <span class="toc-text">实例入门</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#一个简单的”Hello-world”"><span class="toc-number">3.1.</span> <span class="toc-text">一个简单的”Hello world”</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#显示图片"><span class="toc-number">3.2.</span> <span class="toc-text">显示图片</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#键盘检测"><span class="toc-number">3.3.</span> <span class="toc-text">键盘检测</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#鼠标事件检测"><span class="toc-number">3.4.</span> <span class="toc-text">鼠标事件检测</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#创建一个OpenGL-context"><span class="toc-number">4.</span> <span class="toc-text">创建一个OpenGL context</span></a></li></ol>
+          </div>
+      </div>
+    </div>
+
+  
+    
+
+  
+    
+  
+    
+  
+    
+
+  
+    
+  
+    <!--微信公众号二维码-->
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-left">
+      &copy; 2014 - 2018 筵彭&nbsp;
+    </div>
+     <div id="footer-right">
+Mail:&nbsp;pp2677345028@gmail.com
+    </div>
+  </div>
+</footer>
+ <script src="/jquery/jquery.min.js"></script>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">首页</a>
+  
+    <a href="/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/about" class="mobile-nav-link">关于</a>
+  
+</nav>
+    <img class="back-to-top-btn" src="/images/fly-to-top.png"/>
+<script>
+// Elevator script included on the page, already.
+window.onload = function() {
+  var elevator = new Elevator({
+    selector:'.back-to-top-btn',
+    element: document.querySelector('.back-to-top-btn'),
+    duration: 1000 // milliseconds
+  });
+}
+</script>
+      
+
+  
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "e2fb4051c49842688ce669e634bc983f",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+    
+
+  
+
+
+
+
+
+
+
+<!-- author:forvoid begin -->
+<!-- author:forvoid begin -->
+
+<!-- author:forvoid end -->
+
+<!-- author:forvoid end -->
+
+
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      })
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      })
+    </script>
+    <script type="text/javascript" src="https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
+
+ <script src="/js/is.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+<script src="/js/elevator.js"></script>
+  </div>
+</body>
+</html>
